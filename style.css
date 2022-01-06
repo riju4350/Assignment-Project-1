@@ -98,6 +98,17 @@ body{
 /* An another section end */
 
 /* contact form */
+.contactBg{
+    background-color:#dff3f8 ;
+}
+.contactBg h1{
+    text-align: center;
+    padding-top: 5%;
+    font-size: 30px; 
+}
+.contactBg span{
+    color:rgb(12, 193, 238);
+}
 input[type=text], select, textarea {
     width: 100%;
     padding: 12px;
@@ -125,12 +136,10 @@ input[type=text], select, textarea {
   }
   
   .container {
-    /* border-radius: 5px; */
+    border-radius: 15px;
     background-color: #ffffff;
-    padding: 20px;
-  }
-.contactBg{
-    background-color:#ceedf5 ;
+    padding: 20px; 
+    margin-top:10%;
 }
 /*  */
 footer{
@@ -138,7 +147,6 @@ footer{
     color:white;
     text-align: center;
     padding:10px 0 20px 0;
-
 }
 footer span{
     color:#0cc1ee;
