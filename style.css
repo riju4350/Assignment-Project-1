@@ -16,6 +16,10 @@ body{
 .LandingSecText h1{
     font-size: 45px;
     margin-top: 20%;
+    padding-left:10px;
+    border-left:3px solid;
+    border-image: linear-gradient( cyan,blue);
+    border-image-slice:1;
 }
 .LandingSecText span{
     color:rgb(12, 193, 238);
@@ -32,8 +36,8 @@ body{
     color:white;
     background-image: linear-gradient(45deg,rgb(1, 111, 255),rgb(12, 193, 238));
     padding: 10px 30px;
+    border-radius: 5px;
     transition:0.6s;
-    display:inline-block;
 }
 .HireBtn:hover{
     color:rgb(0, 0, 0);
@@ -75,7 +79,7 @@ body{
 }
 /* service section end */
 
-/* another section start */
+/* section1 start */
 .Section1Image{
     width:50%;
     margin-top:5%; 
@@ -84,9 +88,9 @@ body{
     width:50%;
     margin-top: 5%;
 }
-/* another section end */
+/* section1 end */
 
-/* An another section start */
+/* section2 start */
 .Section2Image{
     width:50%;
     margin: 5% 0 5% 10%; 
@@ -95,7 +99,7 @@ body{
     width:50%;
     margin-top:5%;
 }
-/* An another section end */
+/*Section2 end */
 
 /* contact form */
 .contactBg{
