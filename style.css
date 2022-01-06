@@ -76,22 +76,22 @@ body{
 /* service section end */
 
 /* another section start */
-.anotherSecImage{
+.Section1Image{
     width:50%;
     margin-top:5%; 
 }
-.anotherSecText{
+.Section1Text{
     width:50%;
     margin-top: 5%;
 }
 /* another section end */
 
 /* An another section start */
-.AnanotherSecImage{
+.Section2Image{
     width:50%;
     margin: 5% 0 5% 10%; 
 }
-.AnanotherSecText{
+.Section2Text{
     width:50%;
     margin-top:5%;
 }
@@ -141,7 +141,7 @@ input[type=text], select, textarea {
     padding: 20px; 
     margin-top:10%;
 }
-/*  */
+/* Footer start*/
 footer{
     background-color: black;
     color:white;
@@ -151,3 +151,4 @@ footer{
 footer span{
     color:#0cc1ee;
 }
+/* Footer end */
