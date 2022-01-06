@@ -2,5 +2,27 @@ body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins',sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+.LandingSec{
+    display:flex;
+    width:80%;
+    margin:0 auto;
+}
+.LandingSecText{
+    width:50%;
+}
+.LandingSecText h1{
+    font-size: 45px;
+    margin-top: 20%;
+}
+.LandingSecText span{
+    color:rgb(12, 193, 238);
+}
+.LandingSecImage{
+    width:50%;
+    margin-left:10%;
+}
+.imageWidth{
+    width:80%; 
 }
