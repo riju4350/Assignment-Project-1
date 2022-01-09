@@ -9,6 +9,7 @@ body{
     display:flex;
     width:80%;
     margin:0 auto;
+    margin-bottom: 5%;
 }
 .LandingSecText{
     width:50%;
@@ -51,6 +52,7 @@ body{
     display:flex;
     justify-content: center;
     margin-top: 50px;
+    margin-bottom: 5%;
 } 
 .service{
     width: 300px;
@@ -95,8 +97,14 @@ body{
 /* section2 start */
 .Section2Image{
     width:50%;
-    margin: 5% 0 5% 10%; 
+   
 }
+.Section2Image img{
+    margin: 5% 0 5% 20%; 
+}
+/* .extraMargin{
+    margin-left: 25%;
+} */
 .Section2Text{
     width:50%;
     margin-top:5%;
@@ -126,7 +134,7 @@ input[type=text], select, textarea {
     resize: vertical;
   }
   
-  input[type=submit] {
+input[type=submit] {
     background-color: #0476aa;
     color: white;
     padding: 12px 20px;
@@ -136,12 +144,12 @@ input[type=text], select, textarea {
     transition:0.5s;
   }
   
-  input[type=submit]:hover {
+input[type=submit]:hover {
     background-color: #f04f4f;
     /* color:black; */
   }
   
-  .container {
+.container {
     border-radius: 15px;
     background-color: #ffffff;
     padding: 20px; 
@@ -157,4 +165,11 @@ footer{
 footer span{
     color:#0cc1ee;
 }
+
+/* .imageWidth{
+    margin-left: 5%;
+} */
 /* Footer end */
+/* .imageWidth{
+    width:40%;
+} */
